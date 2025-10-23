@@ -1,0 +1,48 @@
+package semPattener;
+public class Arvore{
+    private String name;
+    private String color;
+    private String texture;
+    private double x;
+    private double y;
+    
+    public Arvore(String name, String color, String texture, double x, double y){
+        this.name = name;
+        this.texture = texture;
+        this.color = color;
+        this.x =  x;
+        this.y = y;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+    public String getTexture() {
+        return texture;
+    }
+    public void setTexture(String texture) {
+        this.texture = texture;
+    }
+    public double getX() {
+        return x;
+    }
+    public void setX(double x) {
+        this.x = x;
+    }
+    public double getY() {
+        return y;
+    }
+    public void setY(double y) {
+        this.y = y;
+    }
+
+}
