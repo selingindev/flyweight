@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "flyweight_2bca46d9"
+        },
+        {
+            "name": "Dart & Flutter",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "cwd": "\\PCDOARTU\\Users\\Arthur Selingin\\Documents\\GitHub\\hub",
+            "args": []
+        }
+    ]
+}
