@@ -1,12 +1,12 @@
 package semPattener;
-public class Arvore{
+public class ArvoreNP{
     private String name;
     private String color;
     private String texture;
     private double x;
     private double y;
     
-    public Arvore(String name, String color, String texture, double x, double y){
+    public ArvoreNP(String name, String color, String texture, double x, double y){
         this.name = name;
         this.texture = texture;
         this.color = color;
