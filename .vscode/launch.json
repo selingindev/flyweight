@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainPattener",
+            "request": "launch",
+            "mainClass": "MainPattener",
+            "projectName": "flyweight_2bca46d9"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
