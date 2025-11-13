@@ -1,22 +1,33 @@
 import java.util.Objects;
+import java.awt.Image;
+import javax.swing.ImageIcon;
 
 public class TypeArvore {
     private String name;
     private String color;
     private String texture;
+    private Image image;
 
     public TypeArvore(String name, String color, String texture) {
         this.name = name;
         this.color = color;
         this.texture = texture;
+        this.image = new ImageIcon("images/" + texture).getImage();
     }
 
     public void desenhar(double x, double y) {
         // poderia desenhar em alguma lugar especifico da tela
-        //aq eu so print seu x e y msm
+        // aq eu so print seu x e y msm
 
         System.out.println(x);
         System.out.println(y);
+    }
+
+    public Image getImage() {
+
+        this.image = new ImageIcon("images/" + texture).getImage();
+
+        return this.image;
     }
 
     @Override
